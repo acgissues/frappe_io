@@ -30,11 +30,11 @@ Params (in query):
 
 	You can filter the listing using SQL conditions by passing them in the *filters* parameter. Each condition is an array of the format, [{doctype}, {field}, {operator}, {value}]. For example, filters=[["Customer", "country", "=", "India"]]
 
-* limit_page_length (int)
+* limit\_page\_length (int)
 
 	All listings will be paginated. With this parameter you can change the page size (how many items are teturned at once). Default: 20.
 
-* limit_start (int)
+* limit\_start (int)
 
 	To request successive pages, pass a multiple of your limit_page_length as limit_start. For example, to request the second page, pass limit_start as 20.
 
